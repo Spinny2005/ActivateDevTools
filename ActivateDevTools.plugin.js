@@ -9,7 +9,7 @@ class ActivateDevTools {
     constructor() { }
 
     load() { }
-    unload() { }
+    unload() { location.reload(); }
 
     initialize() { }
     onMessage() { }
@@ -50,6 +50,7 @@ class ActivateDevTools {
 
     stop() {
         console.log(`${this.getName()} stop()`);
+        location.reload();
     }
 }
 
