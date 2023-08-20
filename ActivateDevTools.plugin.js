@@ -3,6 +3,9 @@
  * @version 1.0.0
  * @description Reveals Developer tabs in Discord's settings.
  * @author Spinny2005
+ * @authorId 420059335486341122
+ * @website https://spencerboggs.github.io
+ * @source https://github.com/Spinny2005/ActivateDevTools
  */
 
 class ActivateDevTools {
@@ -18,7 +21,7 @@ class ActivateDevTools {
 
     getName() { return "ActivateDevTools"; }
     getDescription() { return "Reveals Developer tabs in Discord's settings."; }
-    getVersion() { return "1.0"; }
+    getVersion() { return "1.0.0"; }
     getAuthor() { return "Spinny2005"; }
 
     getSettingsPanel() {
